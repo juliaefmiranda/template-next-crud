@@ -11,7 +11,15 @@
 }
 
 .footer {
-    background-color: lightskyblue;
+    background-color: #181818;
     text-align: center;
     padding: 1rem 2rem;
+    border-top: 1px solid #0091ff;
+}
+
+.footer p {
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+    padding-bottom: 0.5rem;
 }
