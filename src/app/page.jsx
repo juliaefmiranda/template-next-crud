@@ -1,5 +1,5 @@
 'use client'
-import { examples } from '@/data/crud';
+import { crud, examples } from '@/data/crud';
 import Card from '@/components/Card';
 import styles from './page.module.css';
 
@@ -10,6 +10,16 @@ export default function Page() {
         <>
             <main className={styles.main}>
                 {examples.map(({id, verb, method, description, color, Icon}) => (
+                    <Card
+                        key={id}
+                        verb={verb}
+                        method={method}
+                        description={description}
+                        color={color}
+                        Icon={Icon}
+                    />
+                ))}
+                {crud.map(({id, verb, method, description, color, Icon}) => (
                     <Card
                         key={id}
                         verb={verb}

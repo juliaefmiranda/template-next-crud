@@ -14,7 +14,7 @@ export default function Header() {
         examples.find((e) => pathname === `/${e.method.toLowerCase()}`);
 
     const method = pathname === '/' ? 'CRUD' : operation?.method || '404';
-    const color = pathname === '/' ? 'black' : operation?.color || 'red';
+    const color = pathname === '/' ? 'cyan' : operation?.color || 'red';
 
     return (
         <header className={styles.header}>

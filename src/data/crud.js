@@ -6,7 +6,7 @@ export const examples = [
         method: 'ApiKey',
         verb: 'Get',
         description: 'Lista séries com api-key exposta.',
-        color: 'purple',
+        color: 'cyan',
         Icon: KeyRound,
     },
     {
@@ -14,7 +14,7 @@ export const examples = [
         method: 'SSR',
         verb: 'Get',
         description: 'Lista séries renderizadas no SSR.',
-        color: 'purple',
+        color: 'lightblue',
         Icon: Server,
     },
     {
@@ -22,18 +22,18 @@ export const examples = [
         method: 'Offline',
         verb: 'Get',
         description: 'Lista séries consumida no sessionStorage.',
-        color: 'purple',
+        color: 'cyan',
         Icon: HardDrive,
     }
 ];
 
 export const crud = [
     {
-        id: 1,
-        method: 'Create',
-        verb: 'Post',
-        description: 'Cria uma nova série.',
-        color: 'orange',
-        Icon: PlusCircle,
+        id: 2,
+        method: 'Read',
+        verb: 'Get',
+        description: 'Lista todas as séries',
+        color: 'lightblue',
+        Icon: List,
     },
 ];
