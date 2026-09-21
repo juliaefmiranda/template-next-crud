@@ -10,6 +10,7 @@ body {
     flex-direction: column;
     background: #292929;
     color: white;
+    font-family: 'Montserrat', sans-serif;
 }
 
 main {
