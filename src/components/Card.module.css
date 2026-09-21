@@ -4,7 +4,7 @@
     height: auto;
     flex-direction: column;
     gap: 1rem;
-    background-color: #222222;
+    background-color: #ffdfdf;
     border: 1px solid var(--card-color, black);
     border-radius: 20px;
     padding: 1.25rem;
@@ -24,13 +24,13 @@
 }
 
 .cardHeader h2 {
-    color: aliceblue;
+    color: rgb(37, 37, 37);
     font-family: 'Montserrat', sans-serif;
     font-size: 1.4rem;
 }
 
 .card p {
-    color: aliceblue;
+    color: rgb(37, 37, 37);
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     text-align: center;

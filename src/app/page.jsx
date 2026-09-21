@@ -1,14 +1,15 @@
+'use client'
 import { examples } from '@/data/crud';
 import Card from '@/components/Card';
 import styles from './page.module.css';
 
-export default async function Page() {
-    // await new Promise((resolve) => setTimeout(resolve, 1000));
+export default function Page() {
+    //await new Promise((resolve) => setTimeout(resolve, 5000));
 
     return (
         <>
             <main className={styles.main}>
-                {examples.map(({ id, verb, method, description, color, Icon }) => (
+                {examples.map(({id, verb, method, description, color, Icon}) => (
                     <Card
                         key={id}
                         verb={verb}
